@@ -60,11 +60,13 @@ struct NoticeDetailsView: View {
                 UserDefaults.standard.setValue(nil, forKey: "SELECTED_NOTICE_ID")
                 self.presentationMode.wrappedValue.dismiss()
             },label:{
-                HStack(spacing: 1) {
-                    Image(systemName: "chevron.left")
-                    Text("Back")
-                        .font(.title3)
-                }.frame(height: 25)
+                if UIDevice.current.userInterfaceIdiom == UIUserInterfaceIdiom.phone {
+                    HStack(spacing: 1) {
+                        Image(systemName: "chevron.left")
+                        Text("Back")
+                            .font(.title3)
+                    }.frame(height: 25)
+                }
             }))
         }.navigationBarTitle(Text(verbatim: notice.noticeHeading), displayMode: .inline)
     }
