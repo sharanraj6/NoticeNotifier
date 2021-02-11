@@ -23,26 +23,26 @@ struct NoticeDetailsView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 4) {
                 Text(verbatim: "Description")
-                    .font(.custom("AvenirNext-Bold", size: 15))
+                    .font(.custom("AvenirNext-Bold", size: 18))
                     .padding(.top, 10)
                 TextView(text: notice.noticeDescription)
                     .frame(minHeight: 80, maxHeight: 600)
                 
                 Text(verbatim: "Sent By")
-                    .font(.custom("AvenirNext-Bold", size: 15))
+                    .font(.custom("AvenirNext-Bold", size: 18))
                 Text(verbatim: notice.noticeSentBy)
-                    .font(.custom("AvenirNext-Regular", size: 12))
+                    .font(.custom("AvenirNext-Regular", size: 14))
                 
                 Text(verbatim: "Date & Time")
-                    .font(.custom("AvenirNext-Bold", size: 15))
+                    .font(.custom("AvenirNext-Bold", size: 18))
                     .padding(.top,10)
                 Text(verbatim: "\(dateFormatterDate.string(from: dateFormatter.date(from: notice.noticeSentTimestamp)!)),")
-                    .font(.custom("AvenirNext-Regular", size: 12))
+                    .font(.custom("AvenirNext-Regular", size: 14))
                 Text(verbatim: "\(dateFormatterTime.string(from: dateFormatter.date(from: notice.noticeSentTimestamp)!))")
-                    .font(.custom("AvenirNext-Regular", size: 12))
+                    .font(.custom("AvenirNext-Regular", size: 14))
                 
                 Text(verbatim: "Attachments")
-                    .font(.custom("AvenirNext-Bold", size: 15))
+                    .font(.custom("AvenirNext-Bold", size: 18))
                     .padding(.top,10)
                 ScrollView(.horizontal) {
                     HStack {
@@ -60,7 +60,11 @@ struct NoticeDetailsView: View {
                 UserDefaults.standard.setValue(nil, forKey: "SELECTED_NOTICE_ID")
                 self.presentationMode.wrappedValue.dismiss()
             },label:{
-                Image(systemName: "chevron.left")
+                HStack(spacing: 1) {
+                    Image(systemName: "chevron.left")
+                    Text("Back")
+                        .font(.title3)
+                }.frame(height: 25)
             }))
         }.navigationBarTitle(Text(verbatim: notice.noticeHeading), displayMode: .inline)
     }
@@ -79,7 +83,7 @@ struct AttachmentView: View {
                 }, label: {
                     Image(uiImage: image).resizable().renderingMode(.original)
                         .scaledToFill()
-                        .frame(width: 100, height: 100)
+                        .frame(width: 120, height: 120)
                         .cornerRadius(5)
                 }).sheet(isPresented: $showingDetail, content: {
                     ImageView(image: image)
@@ -87,7 +91,7 @@ struct AttachmentView: View {
             } else {
                 ZStack {
                     ActivityIndicator(animate: $showLoading, activityIndicatorStyle: .medium)
-                }.frame(width: 100, height: 100)
+                }.frame(width: 120, height: 120)
                 .cornerRadius(5)
             }
         }.onAppear(perform: {

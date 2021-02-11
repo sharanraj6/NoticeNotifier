@@ -14,7 +14,7 @@ struct TextView: UIViewRepresentable {
     func makeUIView(context: Context) -> UITextView {
         let textView = UITextView()
  
-        textView.font = UIFont(name: "AvenirNext-Regular", size: 13)
+        textView.font = UIFont(name: "AvenirNext-Regular", size: 14)
         textView.autocapitalizationType = .sentences
         textView.isSelectable = false
         textView.isUserInteractionEnabled = true
