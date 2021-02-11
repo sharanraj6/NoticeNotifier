@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1623DA9125D44CCE00FF2EB3 /* Notices.json in Resources */ = {isa = PBXBuildFile; fileRef = 1623DA9025D44CCE00FF2EB3 /* Notices.json */; };
 		1662CC1D25CF17EC00CABE27 /* NoticeNotifierApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662CC1C25CF17EC00CABE27 /* NoticeNotifierApp.swift */; };
 		1662CC1F25CF17EC00CABE27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1662CC1E25CF17EC00CABE27 /* ContentView.swift */; };
 		1662CC2125CF17EC00CABE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1662CC2025CF17EC00CABE27 /* Assets.xcassets */; };
 		1662CC2425CF17EC00CABE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1662CC2325CF17EC00CABE27 /* Preview Assets.xcassets */; };
+		167856FA25D50272005252EA /* NoticeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167856F925D50272005252EA /* NoticeModel.swift */; };
+		167856FE25D502F7005252EA /* NoticeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167856FD25D502F7005252EA /* NoticeListView.swift */; };
+		1678570225D5056E005252EA /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678570125D5056E005252EA /* NetworkService.swift */; };
+		1678570A25D53D77005252EA /* NoticeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678570925D53D77005252EA /* NoticeDetailsView.swift */; };
+		1678570D25D53E4A005252EA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1678570C25D53E4A005252EA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1623DA9025D44CCE00FF2EB3 /* Notices.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Notices.json; sourceTree = "<group>"; };
 		1662CC1925CF17EC00CABE27 /* NoticeNotifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoticeNotifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1662CC1C25CF17EC00CABE27 /* NoticeNotifierApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeNotifierApp.swift; sourceTree = "<group>"; };
 		1662CC1E25CF17EC00CABE27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1662CC2025CF17EC00CABE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1662CC2325CF17EC00CABE27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1662CC2525CF17EC00CABE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167856F925D50272005252EA /* NoticeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeModel.swift; sourceTree = "<group>"; };
+		167856FD25D502F7005252EA /* NoticeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeListView.swift; sourceTree = "<group>"; };
+		1678570125D5056E005252EA /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1678570925D53D77005252EA /* NoticeDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeDetailsView.swift; sourceTree = "<group>"; };
+		1678570C25D53E4A005252EA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1623DA8F25D44C8900FF2EB3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1623DA9025D44CCE00FF2EB3 /* Notices.json */,
+				1678570C25D53E4A005252EA /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		1662CC1025CF17EC00CABE27 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +73,10 @@
 		1662CC1B25CF17EC00CABE27 /* NoticeNotifier */ = {
 			isa = PBXGroup;
 			children = (
+				1678570025D5054C005252EA /* NetworkService */,
+				167856F825D50261005252EA /* Model */,
+				1678571225D5557B005252EA /* Views */,
+				1623DA8F25D44C8900FF2EB3 /* Resources */,
 				1662CC1C25CF17EC00CABE27 /* NoticeNotifierApp.swift */,
 				1662CC1E25CF17EC00CABE27 /* ContentView.swift */,
 				1662CC2025CF17EC00CABE27 /* Assets.xcassets */,
@@ -67,6 +92,31 @@
 				1662CC2325CF17EC00CABE27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		167856F825D50261005252EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				167856F925D50272005252EA /* NoticeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1678570025D5054C005252EA /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				1678570125D5056E005252EA /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		1678571225D5557B005252EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				167856FD25D502F7005252EA /* NoticeListView.swift */,
+				1678570925D53D77005252EA /* NoticeDetailsView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1662CC2425CF17EC00CABE27 /* Preview Assets.xcassets in Resources */,
+				1623DA9125D44CCE00FF2EB3 /* Notices.json in Resources */,
 				1662CC2125CF17EC00CABE27 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +189,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1678570225D5056E005252EA /* NetworkService.swift in Sources */,
+				167856FE25D502F7005252EA /* NoticeListView.swift in Sources */,
+				167856FA25D50272005252EA /* NoticeModel.swift in Sources */,
+				1678570A25D53D77005252EA /* NoticeDetailsView.swift in Sources */,
 				1662CC1F25CF17EC00CABE27 /* ContentView.swift in Sources */,
 				1662CC1D25CF17EC00CABE27 /* NoticeNotifierApp.swift in Sources */,
+				1678570D25D53E4A005252EA /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +325,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NoticeNotifier/Preview Content\"";
+				DEVELOPMENT_TEAM = GZ42PDPU7G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NoticeNotifier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +347,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"NoticeNotifier/Preview Content\"";
+				DEVELOPMENT_TEAM = GZ42PDPU7G;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = NoticeNotifier/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;

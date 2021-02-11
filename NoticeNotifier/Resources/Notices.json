@@ -1,0 +1,20 @@
+{
+    "Notices": [
+        {
+            "notice_heading": "Excellent",
+            "notice_sent_timestamp": "2021-01-29T11:57:21",
+            "notice_sent_by": "Vivian",
+            "notice_description": "Hi Sir, your son has scored excellent marks in the recent assignment.",
+            "notice_attachments": ["https://thumbs.dreamstime.com/z/excellent-exam-results-paper-human-hands-excellent-exam-results-paper-human-hands-best-grade-knowledge-estimation-115068379.jpg", "https://st2.depositphotos.com/2945681/6411/v/600/depositphotos_64117931-stock-illustration-examination-paper-with-passed-stamp.jpg"],
+            "notice_id": "101"
+        },
+        {
+            "notice_heading": "Emergency",
+            "notice_sent_timestamp": "2021-01-30T13:45:16",
+            "notice_sent_by": "Vivian",
+            "notice_description": "Hi Sir, your son has met with a serious injury during football practise. Please come quickly. We are treating him in the emergency room.",
+            "notice_attachments": ["https://www.gannett-cdn.com/-mm-/aafbe7639d6b16f8b9ca50c52ad05a3531dec88b/c=49-0-3511-1956/local/-/media/2016/07/01/TennGroup/Nashville/636029359894447594--ABC0219.JPG","https://newsroom.uw.edu/sites/default/files/football_injury_crop_transport_sports_medicine.jpg"],
+            "notice_id": "102"
+        }
+    ]
+}

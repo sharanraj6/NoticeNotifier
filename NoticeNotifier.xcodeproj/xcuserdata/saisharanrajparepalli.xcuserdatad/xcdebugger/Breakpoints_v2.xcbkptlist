@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6C9783C3-387A-4723-A10A-9FF30ED87CDA"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2D70C0D1-C5C1-425D-BB0E-F55E49E2DB44"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoticeNotifier/Views/NoticeListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "2D70C0D1-C5C1-425D-BB0E-F55E49E2DB44 - 504eb4d6b08ee48e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.NavigationLink&lt;SwiftUI.EmptyView, NoticeNotifier.NoticeDetailsView&gt;&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationViewStyle&lt;A where A1: SwiftUI.NavigationViewStyle&gt;(A1) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.NavigationLink&lt;SwiftUI.EmptyView, NoticeNotifier.NoticeDetailsView&gt;&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationViewStyle&lt;A where A1: SwiftUI.NavigationViewStyle&gt;(A1) -&gt; some&gt;&gt;.0)&gt;&gt; in NoticeNotifier.NoticeListView.body.getter : some"
+                  moduleName = "NoticeNotifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saisharanrajparepalli/Documents/NextEducationDemoApp/NoticeNotifier/NoticeNotifier/Views/NoticeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1364">
+               </Location>
+               <Location
+                  uuid = "2D70C0D1-C5C1-425D-BB0E-F55E49E2DB44 - 504eb4d6b08ee48e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.NavigationLink&lt;SwiftUI.EmptyView, NoticeNotifier.NoticeDetailsView&gt;&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationViewStyle&lt;A where A1: SwiftUI.NavigationViewStyle&gt;(A1) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.NavigationLink&lt;SwiftUI.EmptyView, NoticeNotifier.NoticeDetailsView&gt;&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationViewStyle&lt;A where A1: SwiftUI.NavigationViewStyle&gt;(A1) -&gt; some&gt;&gt;.0)&gt;&gt; in NoticeNotifier.NoticeListView.body.getter : some"
+                  moduleName = "NoticeNotifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saisharanrajparepalli/Documents/NextEducationDemoApp/NoticeNotifier/NoticeNotifier/Views/NoticeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "3488">
+               </Location>
+               <Location
+                  uuid = "2D70C0D1-C5C1-425D-BB0E-F55E49E2DB44 - 5b0002040c3757b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (NoticeNotifier.Notice) -&gt; Swift.Bool in closure #1 () -&gt; SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.NavigationLink&lt;SwiftUI.EmptyView, NoticeNotifier.NoticeDetailsView&gt;&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationViewStyle&lt;A where A1: SwiftUI.NavigationViewStyle&gt;(A1) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; SwiftUI.ZStack&lt;SwiftUI.TupleView&lt;(Swift.Optional&lt;SwiftUI.NavigationLink&lt;SwiftUI.EmptyView, NoticeNotifier.NoticeDetailsView&gt;&gt;, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationViewStyle&lt;A where A1: SwiftUI.NavigationViewStyle&gt;(A1) -&gt; some&gt;&gt;.0)&gt;&gt; in NoticeNotifier.NoticeListView.body.getter : some"
+                  moduleName = "NoticeNotifier"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saisharanrajparepalli/Documents/NextEducationDemoApp/NoticeNotifier/NoticeNotifier/Views/NoticeListView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8B393068-4F8A-4EB0-AFEF-C575910980DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoticeNotifier/Views/NoticeDetailsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2707CEE9-C47A-457B-840A-67F8AA52881B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NoticeNotifier/Views/NoticeListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "NoticeListView"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

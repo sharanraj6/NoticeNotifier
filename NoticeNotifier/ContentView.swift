@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    var notices: [Notice]?
+    init() {
+        /// Network Service Call to fetch Notices from server.
+        notices = NetworkService.sharedInstance.fetchLocalData()?.notices
+    }
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        if let noticesFetched = notices {
+            NoticeListView(notices: noticesFetched)
+        }
     }
 }
 
